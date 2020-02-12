@@ -91,12 +91,13 @@ Just to speed things up a bit, paste the following code into `index.html`:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Introduction to the DOM Lab</title>
+  
 </head>
 <body>
   <!--All our work for this lesson will go here-->
+  <h1>My HTML adventure</h1>
 </body>
 </html>
-```
 
 Refresh the page to see the changes.
 
@@ -107,7 +108,6 @@ window to see that the `body` node is, temporarily, child-less.
 First, let's add a title to our page:
 
 ```html
-<h1>My HTML adventure</h1>
 ```
 
 Refresh the page and view the Elements tab again. You should see that a new,
